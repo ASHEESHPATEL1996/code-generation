@@ -1,29 +1,29 @@
-# 📘 GenAI Code Documentation Generator
+# GenAI Code Documentation Generator
 
 An AI-powered application that automatically generates high-quality documentation for codebases using Large Language Models (LLMs).
 
 Upload Python files, a ZIP project, or a GitHub repository to instantly produce structured documentation, project overviews, and inline docstrings — safely and efficiently.
 
-🌐 **Live Application:**
+**Live Application:**
 https://code-generation-asheeshpatel.streamlit.app/
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
-* 🧠 AI-generated documentation for entire projects
-* 📄 Inline docstring generation for functions and classes
-* 📦 Supports single files, ZIP uploads, and GitHub repositories
-* 🏗️ Project-level overview generation
-* 🛡️ AST-based semantic validation to preserve code behavior
-* 🔁 Safe fallback to original code if validation fails
-* ⚡ Persistent caching for faster repeated runs
-* ⬇️ Download updated files or full documented project as ZIP
-* ☁️ Fully deployed web application (no local setup required)
+* AI-generated documentation for entire projects
+* Inline docstring generation for functions and classes
+* Supports single files, ZIP uploads, and GitHub repositories
+* Project-level overview generation
+* AST-based semantic validation to preserve code behavior
+* Safe fallback to original code if validation fails
+* Persistent caching for faster repeated runs
+* Download updated files or full documented project as ZIP
+* Fully deployed web application (no local setup required)
 
 ---
 
-## 🧩 How It Works
+## How It Works
 
 1. **Input Sources**
 
@@ -51,7 +51,7 @@ https://code-generation-asheeshpatel.streamlit.app/
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 ```
 User → Streamlit UI → Processing Pipeline → LLM → AST Validation → Output
@@ -67,31 +67,31 @@ User → Streamlit UI → Processing Pipeline → LLM → AST Validation → Out
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
-### 🧠 AI & NLP
+### AI & NLP
 
 * OpenAI-compatible LLMs
 * Prompt engineering for code understanding
 
-### 🐍 Backend
+### Backend
 
 * Python
 * AST (Abstract Syntax Tree) processing
 * Modular pipeline architecture
 
-### 🖥️ Interface
+### Interface
 
 * Streamlit
 
-### 🗄️ Storage & Performance
+###  Storage & Performance
 
 * Persistent cache (database-backed)
 * External API inference
 
 ---
 
-## 📦 Example Use Cases
+## Example Use Cases
 
 * Document legacy or poorly documented codebases
 * Improve developer onboarding
@@ -102,16 +102,16 @@ User → Streamlit UI → Processing Pipeline → LLM → AST Validation → Out
 
 ---
 
-## ▶️ Local Setup (Optional)
+## Local Setup (Optional)
 
-### 1️⃣ Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/ASHEESHPATEL1996/code-generation
 cd code-generation
 ```
 
-### 2️⃣ Create virtual environment
+### Create virtual environment
 
 ```bash
 python -m venv venv
@@ -119,13 +119,13 @@ source venv/bin/activate      # macOS/Linux
 venv\Scripts\activate         # Windows
 ```
 
-### 3️⃣ Install dependencies
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Configure environment variables
+### Configure environment variables
 
 Create a `.env` file:
 
@@ -134,7 +134,7 @@ OPENAI_API_KEY=your_api_key
 NEON_DB_URL=your_database_url
 ```
 
-### 5️⃣ Run locally
+### Run locally
 
 ```bash
 streamlit run app.py
@@ -148,7 +148,7 @@ http://localhost:8501
 
 ---
 
-## 🛡️ Safety & Reliability
+## Safety & Reliability
 
 This system is designed to avoid breaking code:
 
@@ -159,7 +159,7 @@ This system is designed to avoid breaking code:
 
 ---
 
-## 🌟 Why This Project Matters
+## Why This Project Matters
 
 This project demonstrates real-world GenAI engineering capabilities:
 
@@ -172,9 +172,9 @@ This project demonstrates real-world GenAI engineering capabilities:
 
 ---
 
-## 🔮 What’s Next
+##  What’s Next
 
-### 🔹 Function-by-Function Documentation Generation
+### Function-by-Function Documentation Generation
 
 Move from file-level documentation to fine-grained analysis:
 
@@ -186,7 +186,7 @@ Move from file-level documentation to fine-grained analysis:
 
 ---
 
-### 🔹 Intelligent Detection & Improvement
+### Intelligent Detection & Improvement
 
 Enhance documentation quality through deeper analysis:
 
@@ -198,7 +198,7 @@ Enhance documentation quality through deeper analysis:
 
 ---
 
-### 🔹 Multi-Language Code Support
+### Multi-Language Code Support
 
 Extend beyond Python to support additional programming languages:
 
@@ -213,7 +213,7 @@ Key capabilities:
 * Language-specific parsing strategies
 ---
 
-## ☁️ Deployment
+## Deployment
 
 The application is deployed on Streamlit Community Cloud for zero-cost public access.
 
